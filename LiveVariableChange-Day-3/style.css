@@ -1,0 +1,33 @@
+body{
+    margin: 50px;
+    font-family: Ubuntu;
+    font-size: larger;
+
+    color: white;
+    background-color: darksalmon;
+
+}
+#image{
+    margin:100px;
+}
+    :root{
+        --base:#ffc600;
+        --spacing: 10px;
+        --blur: 0px;
+        --hue:0%;
+        --contrast:0%;
+        --grayscale:0%;
+        --sepia:0%;
+        --brightness:0%
+
+    }
+    img{
+        padding: var(--spacing);
+        background: var(--base);
+        filter: blur(var(--blur));
+
+    }
+
+    .h1{
+        color:var(--base);
+    }
